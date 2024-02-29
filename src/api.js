@@ -9,7 +9,7 @@ const app = express();
 /************************learner code ************************/
 // Function to handle GET request for user data
 function readUserDataFromFile(filePath) {
-  const strUsersData = fs.readFileSync(filePath, 'utf-8');
+ //  const strUsersData = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(strUsersData);
 }
 // Function to read user data from file
